@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat Assistant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(180deg, #f8f9fc,#eef1f7);
+        }
+
+        #status {
+            font-size: 12px;
+            color: #4338ca;
+            padding: 8px 16px;
+            background: linear-gradient(90deg, #eef2ff, #e0e7ff);
+            border-bottom: 1px solid #c7d2fe;
+        }
+
+        #chat-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            flex: 1;
+            overflow-y: auto;
+            padding: 16px;
+            scroll-behavior: smooth;
+        }
+
+
+        .message {
+            padding: 10px 12px;
+            border-radius: 10px;
+            border: 1px solid grey;
+            max-width: 78%;
+            font-size: 12px;
+            line-height: 1.5;
+            word-wrap: break-word;
+            animation: fadeUp 0.2s ease-out;
+        }
+
+        .ai {
+            align-self: flex-start;
+            background: white;
+            color: black;
+        }
+
+        .user {
+            align-self: flex-end;
+            background: linear-gradient(135deg, #4f46e5, #6366f1);
+            color: white;
+        }
+
+        #input-area {
+            display: flex;
+            padding: 12px;
+            gap: 10px;
+            border-top: 1px solid #ddd;
+            background: white;
+        }
+
+        #user-input {
+            flex: 1;
+            padding: 10px 12px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            outline: none;
+        }
+
+        #user-input:focus {
+            border-color: #6366f1;
+            box-shadow: 0 0 0 3px rgba(99,102,241,0.2);
+        }
+
+        #send-btn {
+            padding: 12px 18px;
+            border: none;
+            color: white;
+            background: #007bff;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        #send-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 18px rgba(79,70,229,0.35);
+        }
+
+        #send-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(6px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="status">Ready</div>
+
+    <div id="chat-container">
+        <div class="message ai">Hello! I am your AI Assistant. How can I help you today?</div>
+    </div>
+
+    <div id="input-area">
+        <input type="text" id="user-input" placeholder="Type a message...">
+        <button id="send-btn">Send</button>
+    </div>
+
+    <script type="module" src="ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "AI Chat Extension",
+    "version": "1.0",
+    "description": "An AI chatbot that runs 100% locally.",
+    "permissions": ["storage","sidePanel", "activeTab"],
+    "action": {
+        "default_title": "Open Local AI"
+    },
+    "background": {
+        "service_worker" : "background.js"
+    },
+    "side_panel": {
+        "default_path": "index.html"
+    },
+    "options_page": "options.html",
+    "host_permissions": ["<all_urls>"]
+}
