@@ -61,19 +61,19 @@ Paste your Gemini API key and save
 
 # Technical Highlights (For Developers)
 
-Side Panel Architecture
+Side Panel Architecture - 
 Uses Chrome’s Side Panel API for persistent multi-tab friendly UI.
 
-Service Worker Background
+Service Worker Background - 
 Event-based background logic compliant with Manifest V3.
 
-Secure Storage
+Secure Storage - 
 API keys are stored using Chrome’s synced storage (no hardcoding).
 
-Privacy-First Design
+Privacy-First Design - 
 No automatic webpage content access and no external data storage.
 
-Error Handling
+Error Handling - 
 Graceful handling of:
    - Invalid or missing API keys
    - Network/API failures
