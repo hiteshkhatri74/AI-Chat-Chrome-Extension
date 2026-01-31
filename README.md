@@ -1,4 +1,4 @@
-# OmniChat AI
+# AI Chat Chrome Extension
 
 AI Chat Chrome Extension is a lightweight Chrome extension that provides instant AI chat inside Chrome’s Side Panel using Google’s Gemini 2.5 Flash model.
 The side panel enables persistent, non-intrusive conversations, allowing users to interact with AI while continuing to browse the web.
@@ -14,19 +14,19 @@ The demo showcases real-time AI chat inside Chrome’s side panel while browsing
 
 # Features
 
-AI Chat in Chrome Side Panel
+AI Chat in Chrome Side Panel -
 Persistent AI chat experience accessible alongside any webpage.
 
-Secure API Key Management
+Secure API Key Management -
 User API keys are stored securely using chrome.storage.sync (no hardcoding, no backend).
 
-Fast & Lightweight
+Fast & Lightweight -
 Event-driven background logic with minimal permissions.
 
-Clean & Minimal UI
+Clean & Minimal UI -
 Simple, readable interface optimized for side panel usage.
 
-Manifest V3 Compliant
+Manifest V3 Compliant -
 Built using Chrome’s latest extension security and architecture standards.
 
 # Tech Stack
