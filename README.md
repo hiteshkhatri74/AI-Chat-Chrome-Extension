@@ -113,9 +113,6 @@ This project demonstrates:
 
 - Chat history persistence
 
-Streaming AI responses
+- Streaming AI responses
 
-Keyboard shortcuts
-No tracking
-
-No server-side storageok 
+- No server-side storage
