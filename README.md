@@ -1,43 +1,44 @@
 # AI Chat Chrome Extension
 
 AI Chat Chrome Extension is a lightweight Chrome extension that provides instant AI chat inside Chrome’s Side Panel using Google’s Gemini 2.5 Flash model.
+
 The side panel enables persistent, non-intrusive conversations, allowing users to interact with AI while continuing to browse the web.
 
 The extension is built with Chrome Manifest V3, focusing on privacy-first design, secure API key handling, and clean, production-ready architecture.
 
 # Demo
 
-Video Demo: https://drive.google.com/file/d/13E1knpE76YYoEnvq7UJF7yzy70LLLoir/view?usp=sharing
+- Video Demo: https://drive.google.com/file/d/13E1knpE76YYoEnvq7UJF7yzy70LLLoir/view?usp=sharing
 
-Quick Preview: <img width="1920" height="1028" alt="Screenshot (324)" src="https://github.com/user-attachments/assets/73a49e24-afbd-4d5d-8a16-21916574e5f6" />
+- Quick Preview: <img width="1920" height="1028" alt="Screenshot (324)" src="https://github.com/user-attachments/assets/73a49e24-afbd-4d5d-8a16-21916574e5f6" />
 
 
 The demo showcases real-time AI chat inside Chrome’s side panel while browsing different websites.
 
 # Features
 
-AI Chat in Chrome Side Panel -
+- AI Chat in Chrome Side Panel -
 Persistent AI chat experience accessible alongside any webpage.
 
-Secure API Key Management -
-User API keys are stored securely using chrome.storage.sync (no hardcoding, no backend).
-
-Fast & Lightweight -
+- Fast & Lightweight -
 Event-driven background logic with minimal permissions.
 
-Clean & Minimal UI -
+- Clean & Minimal UI -
 Simple, readable interface optimized for side panel usage.
 
-Manifest V3 Compliant -
+- Manifest V3 Compliant -
 Built using Chrome’s latest extension security and architecture standards.
+
+- Secure API Key Management -
+User API keys are stored securely using chrome.storage.sync (no hardcoding, no backend).
 
 # Tech Stack
 
-Frontend: JavaScript (ES6+), HTML5, CSS3
+- Frontend: JavaScript (ES6+), HTML5, CSS3
 
-AI API: Google Gemini AI (gemini-2.5-flash)
+- AI API: Google Gemini AI (gemini-2.5-flash)
 
-Browser APIs: Chrome Extensions Manifest V3 - tabs, storage, scripting
+- Browser APIs: Chrome Extensions Manifest V3 - tabs, storage, scripting
 
 # Installation & Setup
 1️⃣ Prerequisites
@@ -49,68 +50,68 @@ Gemini API Key (from Google AI Studio)
 2️⃣ Local Setup
 git clone https://github.com/hiteshkhatri74/AI-Chat-Chrome-Extension.git
 
-Open Chrome → chrome://extensions
+- Open Chrome → chrome://extensions
 
-Enable Developer mode
+- Enable Developer mode
 
-Click Load unpacked
+- Click Load unpacked
 
-Select the cloned project folder
+- Select the cloned project folder
 
-Click the extension icon → open Settings
+- Click the extension icon → open Settings
 
-Paste your Gemini API key and save
+- Paste your Gemini API key and save
 
 # Technical Highlights (For Developers)
 
-Side Panel Architecture - 
+- Side Panel Architecture - 
 Uses Chrome’s Side Panel API for persistent multi-tab friendly UI.
 
-Service Worker Background - 
+- Service Worker Background - 
 Event-based background logic compliant with Manifest V3.
 
-Secure Storage - 
+- Secure Storage - 
 API keys are stored using Chrome’s synced storage (no hardcoding).
 
-Privacy-First Design - 
+- Privacy-First Design - 
 No automatic webpage content access and no external data storage.
 
-Error Handling - 
+- Error Handling - 
 Graceful handling of:
    - Invalid or missing API keys
    - Network/API failures
 
 # Security & Privacy
 
-No external database
+- No external database
 
-No tracking or analytics
+- No tracking or analytics
 
-No server-side storage
+- No server-side storage
 
-All user data remains inside the browser
+- All user data remains inside the browser
 
 # Why this project matters
 
 This project demonstrates:
 
-Strong understanding of modern Chrome Extension architecture
+- Strong understanding of modern Chrome Extension architecture
 
-Responsible permission and privacy handling
+- Responsible permission and privacy handling
 
-Clean frontend and async logic
+- Clean frontend and async logic
 
-Practical AI API integration
+- Practical AI API integration
 
-Product-focused engineering mindset
+- Product-focused engineering mindset
 
 # Future Improvements
 
-Optional page-content reading via explicit user action
+- Optional page-content reading via explicit user action
 
-Context-aware prompts
+- Context-aware prompts
 
-Chat history persistence
+- Chat history persistence
 
 Streaming AI responses
 
