@@ -8,7 +8,8 @@ The extension is built with Chrome Manifest V3, focusing on privacy-first design
 # Demo
 
 Video Demo: https://drive.google.com/file/d/13E1knpE76YYoEnvq7UJF7yzy70LLLoir/view?usp=sharing
-Quick Preview: Add GIF or screenshot
+Quick Preview: <img width="1920" height="1028" alt="Screenshot (324)" src="https://github.com/user-attachments/assets/73a49e24-afbd-4d5d-8a16-21916574e5f6" />
+
 
 The demo showcases real-time AI chat inside Chrome’s side panel while browsing different websites.
 
