@@ -7,7 +7,7 @@ The extension is built with Chrome Manifest V3, focusing on privacy-first design
 
 # Demo
 
-Video Demo: Add Loom / YouTube link here
+Video Demo: https://drive.google.com/file/d/13E1knpE76YYoEnvq7UJF7yzy70LLLoir/view?usp=sharing
 Quick Preview: Add GIF or screenshot
 
 The demo showcases real-time AI chat inside Chrome’s side panel while browsing different websites.
