@@ -114,5 +114,3 @@ This project demonstrates:
 - Chat history persistence
 
 - Streaming AI responses
-
-- No server-side storage
